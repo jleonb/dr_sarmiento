@@ -1,0 +1,462 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" id="ppstyle" type="text/css" href="style.css">
+    <link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
+    <script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/blocs.js"></script>
+    <script src="./js/cssslidy.js"></script>
+    <title>Clínica Dr. Sarmiento</title>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- Navigation Bloc -->
+	<div id="b-nav" class="bloc-container">
+	<div id="bloc-nav" class="d-mode d-mode-active">
+		<div class="bloc bgc-3 l-bloc" id="nav-bloc">
+			<div class="container bloc-sm2">
+
+		<nav class="navbar row ">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="img/logotipo.png" alt='imagen' /></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav pull-right">
+					<li>
+						<a href="index.html" class="hvr-underline-from-left">INICIO</a>
+					</li>
+					<li>
+						<a href="dr_sarmiento.html" class="hvr-underline-from-left">DR. SARMIENTO</a>
+					</li>
+					<li>
+						<a href="#" id="dropdownMenu1" type="button" data-toggle="dropdown" aria-expanded="true" class="hvr-underline-from-left">CIRUGÍA PLÁSTICA<br>FACIAL <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_bichectomia.html" class="hvr-underline-from-center">BICHECTOMIA</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_blefaroplastia.html" class="hvr-underline-from-center">BLEFAROPLASTÍA</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_cervicoplastia.html" class="hvr-underline-from-center">CERVICOPLASTÍA</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_frontoplastia.html" class="hvr-underline-from-center">FRONTOPLASTÍA</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_lifting.html" class="hvr-underline-from-center">LIFTING FACIAL</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_liposuccion.html" class="hvr-underline-from-center">LIPOSUCCIÓN DE PAPADA</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_mentoplastia.html" class="hvr-underline-from-center">MENTOPLASTÍA</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_otoplastia.html" class="hvr-underline-from-center">OTOPLASTÍA</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_perfiloplastia.html" class="hvr-underline-from-center">PERFILOPLASTÍA</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_rejuvenecimiento.html" class="hvr-underline-from-center">REJUVENECIMIENTO FACIAL</a></li>
+    						<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_facial_rinoplastia.html" class="hvr-underline-from-center">RINOPLASTÍA</a></li>
+					  </ul>
+					</li>
+					<li>
+						<a href="#" id="dropdownMenu2" type="button" data-toggle="dropdown" aria-expanded="true" class="hvr-underline-from-left">CIRUGÍA PLÁSTICA<br>CORPORAL <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_corporal_abdominoplastia.html" class="hvr-underline-from-center">ABDOMINOPLASTÍA</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_corporal_lipoescultura.html" class="hvr-underline-from-center">LIPOESCULTURA</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="cp_corporal_mamoplastia.html" class="hvr-underline-from-center">MAMOPLASTÍA</a></li>
+							</ul>
+					</li>
+					<li>
+						<a href="#" id="dropdownMenu3" type="button" data-toggle="dropdown" aria-expanded="true" class="hvr-underline-from-left">MEDICINA<br>ESTÉTICA <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="medicina_estetica_celulitis.html" class="hvr-underline-from-center">TRATAMIENTO ANTI CELULITIS</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="medicina_estetica_lipoescultura.html" class="hvr-underline-from-center">LIPOESCULTURA NO QUIRÚRGICA</a></li>
+							</ul>
+					</li>
+					<li>
+						<a href="#" id="dropdownMenu4" type="button" data-toggle="dropdown" aria-expanded="true" class="hvr-underline-from-left">PROCEDIMIENTOS<br>NO INVASIVOS <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu4">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="no_invasivos_botox.html" class="hvr-underline-from-center">BOTOX</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="no_invasivos_plasma.html" class="hvr-underline-from-center">PLASMA RICO EN PLAQUETAS</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="no_invasivos_rellenos.html" class="hvr-underline-from-center">RELLENOS FACIALES</a></li>
+							</ul>
+					</li>
+					<li>
+						<a href="#" id="dropdownMenu5" type="button" data-toggle="dropdown" aria-expanded="true" class="hvr-underline-from-left">ODONTOLOGÍA<br>ESTÉTICA <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu4">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="odontologia_blanqueamiento.html" class="hvr-underline-from-center">BLANQUEAMIENTO LÁSER</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="odontologia_camara_intraoral.html" class="hvr-underline-from-center">CÁMARA INTRAORAL</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="odontologia_cirugia_bucal.html" class="hvr-underline-from-center">CIRUGÍA BUCAL</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="odontologia_cirugia_oral.html" class="hvr-underline-from-center">CIRUGÍA ORAL</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="odontologia_implantes.html" class="hvr-underline-from-center">IMPLANTES DENTALES</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="odontologia_estetica.html" class="hvr-underline-from-center">ODONTOLOGÍA ESTÉTICA Y RESTAURADORA</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="odontologia_ortodoncia.html" class="hvr-underline-from-center">ORTODONCIA</a></li>
+							</ul>
+					</li>
+					<li>
+						<a href="#contacto" data-toggle="modal" class="hvr-underline-from-left">CONTACTO</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+			</div>
+		</div>
+	</div>
+</div>	
+<!-- Navigation Bloc END -->
+
+<!-- bloc-slider -->
+<div class="container">
+<div id="slidy-container">
+	<figure id="slidy">
+    <a href="cp_facial.html"><img src="img/carrusel/banner_cirugiaplasticafacial.jpg" alt data-caption="Cirugía Plástica Facial"></a>
+    <a href="cp_corporal.html"><img src="img/carrusel/banner_cirugiaplasticacorporal.jpg" alt data-caption="Cirugía Plástica Corporal"></a>
+    <a href="medicina_estetica.html"><img src="img/carrusel/banner_medicinaestetica.jpg" alt data-caption="Medicina Estética"></a>
+    <a href="procedimientos_no_invasivos.htnl"><img src="img/carrusel/banner_procedimientosnoinvasivos.jpg" alt data-caption="Procedimientos No Invasivos"></a>
+    <a href="odontologia_estetica.html"><img src="img/carrusel/banner_odontologiaestetica.jpg" alt data-caption="Odontología Estética"></a>
+</figure></div>
+</div>
+<!-- bloc-12 slider end -->
+
+
+
+<!-- odontologia-bloc-2 -->
+<div class="bloc  l-bloc " id="odontologia-bloc-2">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="mg-md text-center">
+					ODONTOLOGÍA ESTÉTICA
+				</h3>
+				<p class="text-center ">
+					La odontología estética, es una de las diversas ramas de la odontología. Esta se encarga de tratar todas aquellas alteraciones, dismorfias y patologías de la morfología bucodental para lograr un nivel de belleza que sea acorde a los estándares actuales de apariencia.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- odontologia-bloc-2 END -->
+
+<!-- blanqueamiento -->
+<div class="bloc l-bloc  " id="blanqueamiento">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" width="500" alt='' />
+			</div>
+			<div class="col-sm-6">
+				<h3 class="mg-md">
+					BLANQUEAMIENTO LÁSER
+				</h3>
+				<p class="mg-lg  text-justify">
+					El blanqueamiento es el tratamiento destinado a devolver a un diente su color y translucidez, cuando estos presentan manchas o pigmentaciones que afecten la estética facial. El uso de las técnicas de blanqueamiento, depende de un correcto diagnóstico del tipo de tinción o decoloración dental, y de entender que es un procedimiento que debe ser completado, como parte de un plan de tratamiento desarrollado por un odontólogo, después de una evaluación oral. El procedimiento se logra por medio de la aplicación de láser y formulaciones químicas especiales.<br /><br />Es el sistema más rápido y efectivo para blanquear tus dientes, que opera activando un compuesto que blanquea el diente. Sólo bastan dos o tres sesiones de pocos minutos para conseguir los resultados que con otros procedimientos tardan más de 15 días. Otra de las ventajas de esta tecnología es que provoca menos sensibilidad en los dientes que los blanqueadores comunes.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- blanqueamiento END -->
+
+<!-- blanqueamiento-f -->
+<div class="bloc l-bloc " id="blanqueamiento-f">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- blanqueamiento-f END -->
+
+<!-- odontologia-estetica -->
+<div class="bloc  l-bloc " id="odontologia-estetica">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" width="500" alt='' />
+			</div>
+			<div class="col-sm-6">
+				<h3 class=" mg-md">
+					ODONTOLOGÍA ESTÉTICA Y RESTAURADORA
+				</h3>
+				<p class="mg-lg  text-justify">
+					La odontología estética, es una de las diversas ramas de la odontología. Esta se encarga de tratar todas aquellas alteraciones, dismorfias y patologías de la morfología bucodental para lograr un nivel de belleza que sea acorde a los estándares actuales de apariencia.<br /><br />La odontología estética es un campo cada vez más demandado por los pacientes, debido a la importancia del aspecto de los dientes en todas las edades, muchas veces asociado a salud y bienestar.<br /><br />Los procedimientos que habitualmente se realizan en Odontología Estética, son: blanqueamiento dental, restauraciones de composite, carillas de composite, implantes, ortodoncia, carillas de porcelana, coronas totalmente cerámicas y la limpieza dental profesional.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- odontologia-estetica END -->
+
+<!-- odontologia-estetica-f -->
+<div class="bloc  l-bloc" id="odontologia-estetica-f">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- odontologia-estetica-f END -->
+
+<!-- implantes -->
+<div class="bloc l-bloc  " id="implantes">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" width="500" alt='' />
+			</div>
+			<div class="col-sm-6">
+				<h3 class="mg-md ">
+					IMPLANTES DENTALES
+				</h3>
+				<p class="mg-lg text-justify">
+					Si has perdido uno de tus dientes, ya no tienes de qué preocuparte, pues los avances en Implantología permiten soluciones para cada tipo de necesidad. Los implantes dentales son pequeños elementos cilíndricos de titanio, que se instalan en el hueso gracias a una pequeña intervención quirúrgica. Estos implantes dentales operan como raíces de los nuevos dientes. Sobre los implantes dentales se colocan las coronas, que serán la parte visible
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- implantes END -->
+
+<!-- implantes-f -->
+<div class="bloc l-bloc " id="implantes-f">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- implantes-f END -->
+
+<!-- ortodoncia -->
+<div class="bloc  l-bloc " id="ortodoncia">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" width="500" alt='' />
+			</div>
+			<div class="col-sm-6">
+				<h3 class="mg-md ">
+					ORTODONCIA
+				</h3>
+				<p class="mg-lg  text-justify">
+					Ortodoncia es la ciencia que idealiza la posición de los dientes y sus procesos alveolares mediante aparatologia fija compuesta de elementos metálicos adheridos a los dientes (bandas y brackets) a los que se les adhiere arcos metálicos y elásticos. Se encarga del estudio, prevención, diagnóstico y tratamiento de las anomalías de forma, posición, relación y función de las estructuras dentomaxilofaciales; siendo su ejercicio el arte de prevenir, diagnosticar y corregir sus posibles alteraciones y mantenerlas dentro de un estado óptimo de salud, armonía, y estética mediante el uso y control de diferentes tipos de fuerzas.<br /><br />Ortodoncia Vestibular<br />Ortodoncía Estética<br />Ortodoncia Invisible
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ortodoncia END -->
+
+<!-- ortodoncia-f -->
+<div class="bloc  l-bloc" id="ortodoncia-f">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ortodoncia-f END -->
+
+<!-- cirugia-bucal -->
+<div class="bloc l-bloc  " id="cirugia-bucal">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" width="500" alt='' />
+			</div>
+			<div class="col-sm-6">
+				<h3 class="mg-md ">
+					CIRUGÍA BUCAL Y MAXILOFACIAL
+				</h3>
+				<p class="mg-lg text-justify">
+					La Cirugía Maxilofacial es una especialidad médico-quirúrgica que tiene su campo de actuación en cabeza, cara y cuello, dedicada a devolverte la armonía facial a tu rostro, sea cual sea la causa de tu afección. Dentro del amplio territorio de la cirugía maxilofacial existen diferentes áreas de patología, como son la cirugía ortognática, los implantes dentales, los traumatismos o los tumores.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- cirugia-bucal END -->
+
+<!-- cirugia-bucal-f -->
+<div class="bloc l-bloc " id="cirugia-bucal-f">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- cirugia-bucal-f END -->
+
+<!-- cirugia-oral -->
+<div class="bloc  l-bloc " id="cirugia-oral">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" width="500" alt='' />
+			</div>
+			<div class="col-sm-6">
+				<h3 class="mg-md">
+					CIRUGÍA ORAL
+				</h3>
+				<p class="mg-lg text-justify">
+					La cirugía oral trata multitud de afecciones dentro de la boca y los dientes, desde extraer las muelas del juicio o terceros morales hasta solucionar problemas en los frenillos, muy habitual en los niños.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- cirugia-oral END -->
+
+<!-- cirugia-oral-f -->
+<div class="bloc  l-bloc" id="cirugia-oral-f">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- cirugia-oral-f END -->
+
+<!-- camara-intraoral -->
+<div class="bloc l-bloc  " id="camara-intraoral">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" width="500" alt='' />
+			</div>
+			<div class="col-sm-6">
+				<h3 class="mg-md">
+					CAMARA INTRAORAL
+				</h3>
+				<p class="mg-lg  text-justify">
+					Con un pincel de fibra óptica capta, instantáneamente, imágenes internas de las cavidades del paciente mientras el especialista trabaja en su boca. Dichas imágenes son proyectadas en un computador o televisor. También se pueden congelar las imágenes y guardarlas en la memoria del computador. La cámara intra oral es un complemento de la ficha clínica y del diagnóstico realizado a cada paciente porque, ante todo, es un registro médico.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- camara-intraoral END -->
+
+<!-- camara-intraoral-f -->
+<div class="bloc l-bloc " id="camara-intraoral-f">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="img-responsive img-frame" alt='' />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- camara-intraoral-f END -->
+
+<!-- Footer - footer -->
+	<div class="bloc  d-bloc" id="footer">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/logotipo_b.png" class="img-responsive center-block" width="250" alt='' />
+			</div>
+			<div class="col-sm-3">
+				
+			</div>
+			<div class="col-sm-3">
+				<h4 class="">
+					Contáctenos
+				</h4>
+				<a class="a-btn a-block l"><i class="fa fa-map-marker fa-fw"></i> Apoquindo #3390 of 503 504<br>Las Condes, Santiago.</a>
+				<a class="a-btn a-block l"><i class="fa fa-phone fa-fw"></i> 2 2833 0033 / 2 8449 1528</a>
+				<a class="a-btn a-block l"><i class="fa fa-envelope fa-fw"></i> info@clinicadrsarmiento.cl</a>
+			</div>
+			<div class="col-sm-3">
+				<h4 class="">
+					Síganos
+				</h4>
+				<a href="index.html" class="a-btn a-block l"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+				<a href="index.html" class="a-btn a-block l"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+			</div>
+		</div>
+	</div>
+</div><!-- Footer - footer END -->
+</div>
+<!-- Main container END -->
+
+</body>
+<script> cssSlidy(); </script>      
+<!-- Google Analytics -->
+
+<!-- Google Analytics END -->
+
+</html>
