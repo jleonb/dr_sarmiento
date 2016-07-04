@@ -40,7 +40,7 @@
 		},
 	"\/cp_facial_bichectomia.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_bichectomia.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -49,7 +49,7 @@
 		},
 	"\/cp_facial_blefaroplastia.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_blefaroplastia.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -58,7 +58,7 @@
 		},
 	"\/cp_facial_cervicoplastia.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_cervicoplastia.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -67,7 +67,7 @@
 		},
 	"\/cp_facial_frontoplastia.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_frontoplastia.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -76,7 +76,7 @@
 		},
 	"\/cp_facial_lifting.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_lifting.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -85,7 +85,7 @@
 		},
 	"\/cp_facial_liposuccion.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_liposuccion.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -94,7 +94,7 @@
 		},
 	"\/cp_facial_mentoplastia.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_mentoplastia.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -103,7 +103,7 @@
 		},
 	"\/cp_facial_otoplastia.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_otoplastia.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -112,7 +112,7 @@
 		},
 	"\/cp_facial_perfiloplastia.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_perfiloplastia.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -121,7 +121,7 @@
 		},
 	"\/cp_facial_rejuvenecimiento.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_rejuvenecimiento.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -130,7 +130,7 @@
 		},
 	"\/cp_facial_rinoplastia.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cp_facial_rinoplastia.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -229,7 +229,7 @@
 		},
 	"\/dr_sarmiento.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dr_sarmiento.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -238,7 +238,7 @@
 		},
 	"\/estetica_dental.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/estetica_dental.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -247,7 +247,7 @@
 		},
 	"\/faviconos.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/faviconos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -542,7 +542,7 @@
 		},
 	"\/gracias.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/gracias.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2927,7 +2927,7 @@
 		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3104,7 +3104,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/contacto.kit",
-		"outputAbbreviatedPath": "\/kit\/contacto.html",
+		"outputAbbreviatedPath": "\/contacto.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3113,7 +3113,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_bichectomia.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_bichectomia.html",
+		"outputAbbreviatedPath": "\/cp_facial_bichectomia.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3122,7 +3122,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_blefaroplastia.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_blefaroplastia.html",
+		"outputAbbreviatedPath": "\/cp_facial_blefaroplastia.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3131,7 +3131,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_cervicoplastia.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_cervicoplastia.html",
+		"outputAbbreviatedPath": "\/cp_facial_cervicoplastia.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3140,7 +3140,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_frontoplastia.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_frontoplastia.html",
+		"outputAbbreviatedPath": "\/cp_facial_frontoplastia.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3149,7 +3149,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_lifting.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_lifting.html",
+		"outputAbbreviatedPath": "\/cp_facial_lifting.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3158,7 +3158,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_liposuccion.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_liposuccion.html",
+		"outputAbbreviatedPath": "\/cp_facial_liposuccion.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3167,7 +3167,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_mentoplastia.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_mentoplastia.html",
+		"outputAbbreviatedPath": "\/cp_facial_mentoplastia.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3176,7 +3176,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_otoplastia.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_otoplastia.html",
+		"outputAbbreviatedPath": "\/cp_facial_otoplastia.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3185,7 +3185,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_perfiloplastia.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_perfiloplastia.html",
+		"outputAbbreviatedPath": "\/cp_facial_perfiloplastia.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3194,7 +3194,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_rejuvenecimiento.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_rejuvenecimiento.html",
+		"outputAbbreviatedPath": "\/cp_facial_rejuvenecimiento.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3203,7 +3203,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/cp_facial_rinoplastia.kit",
-		"outputAbbreviatedPath": "\/kit\/cp_facial_rinoplastia.html",
+		"outputAbbreviatedPath": "\/cp_facial_rinoplastia.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3212,7 +3212,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/dr_sarmiento.kit",
-		"outputAbbreviatedPath": "\/kit\/dr_sarmiento.html",
+		"outputAbbreviatedPath": "\/dr_sarmiento.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3221,25 +3221,25 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/estetica_dental.kit",
-		"outputAbbreviatedPath": "\/kit\/estetica_dental.html",
+		"outputAbbreviatedPath": "\/estetica_dental.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/kit\/faviconos.kit": {
 		"fileType": 2048,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/faviconos.kit",
-		"outputAbbreviatedPath": "\/kit\/faviconos.html",
+		"outputAbbreviatedPath": "\/faviconos.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/kit\/footer.kit": {
 		"fileType": 2048,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/footer.kit",
-		"outputAbbreviatedPath": "\/kit\/footer.html",
+		"outputAbbreviatedPath": "\/footer.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3248,7 +3248,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/gracias.kit",
-		"outputAbbreviatedPath": "\/kit\/gracias.html",
+		"outputAbbreviatedPath": "\/gracias.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3266,7 +3266,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/head.kit",
-		"outputAbbreviatedPath": "\/kit\/head.html",
+		"outputAbbreviatedPath": "\/head.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3275,7 +3275,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/index.kit",
-		"outputAbbreviatedPath": "\/kit\/index.html",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3293,7 +3293,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/medicina_estetica_celulitis.kit",
-		"outputAbbreviatedPath": "\/kit\/medicina_estetica_celulitis.html",
+		"outputAbbreviatedPath": "\/medicina_estetica_celulitis.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3302,7 +3302,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/medicina_estetica_depilacion.kit",
-		"outputAbbreviatedPath": "\/kit\/medicina_estetica_depilacion.html",
+		"outputAbbreviatedPath": "\/medicina_estetica_depilacion.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3311,7 +3311,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/medicina_estetica_lipoescultura.kit",
-		"outputAbbreviatedPath": "\/kit\/medicina_estetica_lipoescultura.html",
+		"outputAbbreviatedPath": "\/medicina_estetica_lipoescultura.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3320,6 +3320,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/menu.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/menu.min.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/menu.min.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3333,12 +3342,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kit\/menu_hero.min.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/menu_hero.min.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/no_invasivos_botox.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/no_invasivos_botox.kit",
-		"outputAbbreviatedPath": "\/kit\/no_invasivos_botox.html",
+		"outputAbbreviatedPath": "\/no_invasivos_botox.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3347,7 +3365,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/no_invasivos_plasma.kit",
-		"outputAbbreviatedPath": "\/kit\/no_invasivos_plasma.html",
+		"outputAbbreviatedPath": "\/no_invasivos_plasma.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3356,7 +3374,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/no_invasivos_rellenos.kit",
-		"outputAbbreviatedPath": "\/kit\/no_invasivos_rellenos.html",
+		"outputAbbreviatedPath": "\/no_invasivos_rellenos.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3365,7 +3383,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/ot_amigdalitis.kit",
-		"outputAbbreviatedPath": "\/kit\/ot_amigdalitis.html",
+		"outputAbbreviatedPath": "\/ot_amigdalitis.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3374,7 +3392,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/ot_cirugiadelroncador.kit",
-		"outputAbbreviatedPath": "\/kit\/ot_cirugiadelroncador.html",
+		"outputAbbreviatedPath": "\/ot_cirugiadelroncador.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3383,7 +3401,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/ot_otitis.kit",
-		"outputAbbreviatedPath": "\/kit\/ot_otitis.html",
+		"outputAbbreviatedPath": "\/ot_otitis.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3392,7 +3410,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/ot_septoplastia.kit",
-		"outputAbbreviatedPath": "\/kit\/ot_septoplastia.html",
+		"outputAbbreviatedPath": "\/ot_septoplastia.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3401,7 +3419,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/ot_sinusitis.kit",
-		"outputAbbreviatedPath": "\/kit\/ot_sinusitis.html",
+		"outputAbbreviatedPath": "\/ot_sinusitis.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3410,25 +3428,25 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/procedimientos_no_invasivos.kit",
-		"outputAbbreviatedPath": "\/kit\/procedimientos_no_invasivos.html",
+		"outputAbbreviatedPath": "\/procedimientos_no_invasivos.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/kit\/promociones.kit": {
 		"fileType": 2048,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/promociones.kit",
-		"outputAbbreviatedPath": "\/kit\/promociones.html",
+		"outputAbbreviatedPath": "\/promociones.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/kit\/slider.kit": {
 		"fileType": 2048,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/slider.kit",
-		"outputAbbreviatedPath": "\/kit\/slider.html",
+		"outputAbbreviatedPath": "\/slider.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3443,7 +3461,7 @@
 		},
 	"\/medicina_estetica_celulitis.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/medicina_estetica_celulitis.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3452,7 +3470,7 @@
 		},
 	"\/medicina_estetica_depilacion.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/medicina_estetica_depilacion.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3461,7 +3479,7 @@
 		},
 	"\/medicina_estetica_lipoescultura.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/medicina_estetica_lipoescultura.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3479,7 +3497,7 @@
 		},
 	"\/no_invasivos_botox.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/no_invasivos_botox.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3488,7 +3506,7 @@
 		},
 	"\/no_invasivos_plasma.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/no_invasivos_plasma.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3497,7 +3515,7 @@
 		},
 	"\/no_invasivos_rellenos.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/no_invasivos_rellenos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3578,7 +3596,7 @@
 		},
 	"\/ot_amigdalitis.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ot_amigdalitis.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3587,7 +3605,7 @@
 		},
 	"\/ot_cirugiadelroncador.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ot_cirugiadelroncador.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3596,7 +3614,7 @@
 		},
 	"\/ot_otitis.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ot_otitis.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3605,7 +3623,7 @@
 		},
 	"\/ot_septoplastia.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ot_septoplastia.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3614,7 +3632,7 @@
 		},
 	"\/ot_sinusitis.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ot_sinusitis.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3623,7 +3641,7 @@
 		},
 	"\/procedimientos_no_invasivos.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/procedimientos_no_invasivos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3632,7 +3650,7 @@
 		},
 	"\/promociones.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/promociones.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3641,7 +3659,7 @@
 		},
 	"\/slider.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/slider.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4228,7 +4246,7 @@
 	"kitAutoOutputPathRelativePath": "",
 	"kitAutoOutputPathReplace1": "",
 	"kitAutoOutputPathReplace2": "",
-	"kitAutoOutputPathStyle": 0,
+	"kitAutoOutputPathStyle": 1,
 	"lessAllowInsecureImports": 0,
 	"lessAutoOutputPathEnabled": 1,
 	"lessAutoOutputPathFilenamePattern": "*.css",
