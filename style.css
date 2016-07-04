@@ -1,0 +1,897 @@
+/*-----------------------------------------------------------------------------------*/
+/*	    
+/*      Built with Blocs
+/*-----------------------------------------------------------------------------------*/
+
+body{
+	margin:0;
+	padding:0;
+    background:#FFF;
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+}
+a:hover{text-decoration: none; cursor:pointer;}
+
+
+   
+
+
+/* Globals type styling */
+ h1, h2, h3, h4, h5, h6, p, label, .btn, a{
+	font-family:Open Sans;
+}
+nav {
+	z-index: 99;
+}
+
+/* Site container width */
+
+.container{
+	width:100%;
+}
+
+.container_2{
+	max-width:900px;
+	margin: 0 15%;
+}
+
+#slidy {
+	z-index: -1;
+}
+
+/* Blocs */
+
+.bloc{
+	width:100%;
+	clear:both;
+	background: 50% 50% no-repeat;
+	padding;
+	0 50px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+/* Bloc sizes */
+
+.bloc-lg{
+	padding:100px 50px;
+}
+.bloc-md{
+	padding:50px;
+}
+.bloc-sm{
+	padding:20px 50px;
+}
+.bloc-sm2{
+	padding:0px 50px;
+}
+/* Bloc Group Styles */
+
+.bloc-group{
+	width:100%;
+	display:table;
+}
+.bloc-group .bloc{
+	display: table-cell;
+	vertical-align: top;
+}
+.bloc-tile-2{
+	width:50%;
+}
+.bloc-tile-3{
+	width:33.33333333%;
+}
+.bloc-tile-4{
+	width:25%;
+}
+.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+	width:100%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+/* Bloc - Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-repeat{
+	background:repeat;
+}
+
+
+/* Bloc - Dark theme */
+
+.d-bloc{
+	color:rgba(255,255,255,.7);
+}
+.d-bloc button:hover{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc h1, .d-bloc h2, .d-bloc h3, .d-bloc h4,.d-bloc h5, .d-bloc h6, .d-bloc .ico{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc .icon-round{
+	border-color:rgba(255,255,255,.9);
+}
+.d-bloc .divider-h span{
+	border-color:rgba(255,255,255,.2);
+}
+.d-bloc a{
+	color:rgba(255,255,255,.6);
+}
+.d-bloc a:hover{
+	color:rgba(255,255,255,1);
+}
+.d-bloc .navbar-toggle .icon-bar{
+	background:rgba(255,255,255,1);
+}
+.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
+	color:rgba(255,255,255,1);
+	border-color:rgba(255,255,255,1);
+}
+
+
+/* Bloc - Light theme */
+
+.l-bloc{
+	color:rgba(0,0,0,.5);
+}
+.l-bloc button:hover{
+	color:rgba(0,0,0,.7);
+}
+.l-bloc h1,.l-bloc h2,.l-bloc h3,.l-bloc h4,.l-bloc h5, .l-bloc h6, .l-bloc .ico{
+	color:rgba(0,0,0,.7);
+}
+.l-bloc .icon-round{
+	border-color:rgba(0,0,0,.7);
+}
+.l-bloc .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.l-bloc a{
+	color:rgba(0,0,0,.6);
+}
+.l-bloc a:hover{
+	color:rgba(0,0,0,1);
+}
+.l-bloc .navbar-toggle .icon-bar{
+	color:rgba(0,0,0,.6);
+}
+.l-bloc .btn-wire, .l-bloc .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+/* Custom bloc styling */
+
+#hero-bloc,#feats,#bloc-4,#sarmiento{
+	background-color:#86c3ff;
+}
+#nav-bloc,#video,#promociones,#bloc-11,#bloc-6,#miniaturas,#bloc-12,#cpf-bloc-2,#cpc-bloc-1,#bloc-48,#me-bloc-1,#bloc-59,#lipo-no,#lipo-no-f,#lipo-no-t,#rellenos-faciales,#rellenos-faciales-f,#rellenos-faciales-t,#plasma,#plasma-f,#plasma-t,#odontologia-bloc-1,#odontologia-bloc-2,#odontologia-estetica,#odontologia-estetica-f,#ortodoncia,#ortodoncia-f,#cirugia-oral,#cirugia-oral-f,#bichectomia,#bichectomia-f,#bichectomia-t,#blefaroplastia,#blefaroplastia-f,#blefaroplastia-t,#cervicoplastia,#cervicoplastia-f,#cervicoplastia-t,#frontoplastia,#frontoplastia-f,#frontoplastia-t,#rinoplastia,#rinoplastia-f,#lipoescultura,#lipoescultura-f,#lipoescultura-t,#liposuccion,#liposuccion-f,#liposuccion-t,#lifting,#lifting-f,#lifting-t,#mentoplastia,#mentoplastia-f,#mentoplastia-t,#perfiloplastia,#perfiloplastia-f,#perfiloplastia-t,#rinoplastia-t,#rejuvenecimiento,#rejuvenecimiento-f,#rejuvenecimiento-t,#otoplastia,#otoplastia-f,#otoplastia-t,#mamoplastia,#mamoplastia-f,#mamoplastia-t,#abdominoplastia,#abdominoplastia-f,#abdominoplastia-t,#anticelulitis,#anticelulitis-f,#anticelulitis-t,#botox,#botox-f,#blanqueamiento,#blanqueamiento-f,#implantes,#implantes-f,#cirugia-bucal,#cirugia-bucal-f,#camara-intraoral,#camara-intraoral-f{
+	background-color:#ffffff;
+}
+#testimonio,#testimonio2{
+	background-color:#e9e9e9;
+}
+#footer{
+	background-color:#000000;
+}
+#feats h3,#feats h3,#feats h3,#cpf-bloc-2 h3,#perfiloplastia h3,#perfiloplastia h4,#rinoplastia h3,#rinoplastia h4,#mentoplastia h3,#rejuvenecimiento h3,#lifting h3,#lifting h4,#otoplastia h3,#cervicoplastia h3,#liposuccion h3,#bloc-48 h3,#mamoplastia h3,#abdominoplastia h3,#abdominoplastia h3,#bloc-59 h3,#anticelulitis h3,#anticelulitis h4,#lipo-no h3,#botox h3,#botox h4,#plasma h3,#odontologia-estetica h3,#implantes h3,#ortodoncia h3,#cirugia-bucal h3{
+	color:#303030;
+}
+#footer h4{
+	color:#86c3ff;
+}
+#footer p, #footer a {
+	color: white;
+	font-size: 0.9em;
+}
+#feats,#cpf-bloc-2,#perfiloplastia,#perfiloplastia-t,#rinoplastia,#rinoplastia-t,#mentoplastia,#mentoplastia-t,#rejuvenecimiento,#rejuvenecimiento-t,#lifting,#lifting-t,#bichectomia,#bichectomia-t,#frontoplastia,#frontoplastia-t,#otoplastia,#otoplastia-t,#cervicoplastia,#blefaroplastia,#blefaroplastia-t,#liposuccion,#liposuccion-t,#bloc-48,#mamoplastia,#mamoplastia-t,#lipoescultura,#lipoescultura-t,#abdominoplastia-t,#bloc-59,#anticelulitis,#anticelulitis-t,#lipo-no,#lipo-no-t,#rellenos-faciales-t,#botox,#plasma,#plasma-t,#odontologia-bloc-2,#blanqueamiento,#odontologia-estetica,#implantes,#ortodoncia,#cirugia-bucal,#cirugia-oral,#camara-intraoral{
+	color:#303030;
+}
+#hero-bloc h1{
+	font-size:50px;
+}
+#hero-bloc h3{
+	font-size:30px;
+}
+#hero-bloc h2, #hero-bloc h4{
+	text-shadow: 2px 2px 2px black;
+}
+#testimonio h3{
+	line-height:50px;
+}
+#testimonio2 h3{
+	line-height:50px;
+}
+#cpf-bloc-2 p{
+	line-height: 24px;
+}
+#perfiloplastia p{
+	line-height: 18px;
+}
+#perfiloplastia-t p{
+	line-height: 18px;
+}
+#rinoplastia p{
+	line-height: 18px;
+}
+#rinoplastia-t p{
+	line-height: 18px;
+}
+#mentoplastia p{
+	line-height: 18px;
+}
+#mentoplastia-t p{
+	line-height: 18px;
+}
+#rejuvenecimiento p{
+	line-height: 18px;
+}
+#rejuvenecimiento-t p{
+	line-height: 18px;
+}
+#lifting p{
+	line-height: 22px;
+}
+#lifting-t p{
+	line-height: 18px;
+}
+#bichectomia p{
+	line-height: 18px;
+}
+#bichectomia-t p{
+	line-height: 18px;
+}
+#frontoplastia p{
+	line-height: 18px;
+}
+#frontoplastia-t p{
+	line-height: 18px;
+}
+#otoplastia p{
+	line-height: 18px;
+}
+#otoplastia-t p{
+	line-height: 18px;
+}
+#cervicoplastia p{
+	line-height: 18px;
+}
+#cervicoplastia-t p{
+	line-height: 18px;
+}
+#blefaroplastia p{
+	line-height: 18px;
+}
+#blefaroplastia-t p{
+	line-height: 18px;
+}
+#liposuccion p{
+	line-height: 18px;
+}
+#liposuccion-t p{
+	line-height: 18px;
+}
+#bloc-48 p{
+	line-height: 24px;
+}
+#mamoplastia p{
+	line-height: 18px;
+}
+#mamoplastia-t p{
+	line-height: 18px;
+}
+#lipoescultura p{
+	line-height: 18px;
+}
+#lipoescultura-t p{
+	line-height: 18px;
+}
+#abdominoplastia p{
+	line-height: 18px;
+}
+#abdominoplastia-t p{
+	line-height: 18px;
+}
+#bloc-59 p{
+	line-height: 24px;
+}
+#anticelulitis p{
+	line-height: 18px;
+}
+#anticelulitis-t p{
+	line-height: 18px;
+}
+#lipo-no p{
+	line-height: 18px;
+}
+#lipo-no-t p{
+	line-height: 18px;
+}
+#rellenos-faciales p{
+	line-height: 18px;
+}
+#rellenos-faciales-t p{
+	line-height: 18px;
+}
+#botox p{
+	line-height: 18px;
+}
+#plasma p{
+	line-height: 18px;
+}
+#plasma-t p{
+	line-height: 18px;
+}
+#odontologia-bloc-2 p{
+	line-height: 24px;
+}
+#blanqueamiento p{
+	line-height: 18px;
+}
+#odontologia-estetica p{
+	line-height: 18px;
+}
+#ortodoncia p{
+	line-height: 18px;
+}
+#camara-intraoral p{
+	line-height: 18px;
+}
+
+/* Bloc image backgrounds */
+
+.bg-forrest{
+	background-image:url("img/home.jpg");
+}
+.bg-lines-dl2-bg{
+	background-image:url("img/lines-dl2-bg.png");
+}
+
+/* NavBar */
+
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-brand{
+	height:auto;
+	padding:15px 15px;
+	font-size:25px!important;
+	font-weight:normal;
+	font-weight:600;
+}
+.navbar-brand img{
+	max-height: 200px;
+	margin: 0 5px 0 0;
+	display:inline;
+}
+.navbar-brand{
+	padding: 15px 15px;
+}
+.navbar .nav{
+	padding-top: 2px;
+	margin-right: -16px;
+	float:right;
+}
+.nav > li{
+	float:left;
+	margin-top:4px;
+	font-size:16px;
+	
+}
+
+.nav > li a:hover, .nav > li a:focus{
+	background:transparent;
+}
+.navbar-toggle{
+	margin: 10px 10px 0 0;
+	border: 0px;
+}
+.navbar-toggle:hover{
+	background:transparent!important;
+}
+.navbar-toggle .icon-bar{
+	background-color: rgba(0,0,0,.5);
+	width: 26px;
+}
+ /* Inverted navbar */
+
+.nav-invert .navbar .nav{
+	float:left;
+}
+.nav-invert .navbar-header, .nav-invert .navbar-brand{
+	float:right;
+}
+@media (min-width: 768px){
+	.site-navigation{
+		position:absolute;
+		top:50%;
+		right:20px;
+		transform:translate(0, -50%);
+		-webkit-transform:translateY(-50%);
+	}
+	.nav-invert .site-navigation{
+		left:20px;
+		right:0;
+	}
+}
+/* Hero bloc */
+
+.hero{
+	padding-top:0;
+}
+.hero-nav{
+	position:absolute;
+	margin: 0 auto;
+	left:0;
+	right:0;
+}
+.v-center{
+	width:100%;
+	height: 100%;
+	display: table;
+}
+.v-center .vc-content{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.hero .btn-dwn{
+	width: 58px;
+	height: 58px;
+	line-height: 58px;
+	margin: 0 0 0 -29px;
+	padding: 0;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 18px;
+	color: rgba(255,255,255,.8);
+	background: rgba(0,0,0,.6);
+	position: absolute;
+	left: 50%;
+	bottom: 60px;
+	border:0;
+}
+.hero .btn-dwn:hover{
+	color: rgba(255,255,255,1);
+}
+
+/* Bric adjustment margins */
+
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
+}
+
+/* Buttons */
+
+.btn{
+	margin: 0 5px 5px 0;
+}
+.btn.pull-right{
+	margin: 0 0 5px 5px;
+}
+.btn-d,.btn-d:hover,.btn-d:focus{
+	color:#FFF!important;
+	background:rgba(0,0,0,.3);
+}
+.a-btn{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 6px 10px 6px 0;
+	line-height: 1.42857143;
+	 display:inline-block;
+}
+.text-center .a-btn{
+	padding: 6px 0;
+}
+.a-block{
+	width:100%;
+	text-align: left;
+}
+
+
+/* Link colour styles */
+
+.ltc-2{
+	color:#86c3ff!important;
+}
+.ltc-2:hover{
+	color:#6b9ccc!important;
+}
+
+/* Icons */
+.icon-lg{
+	font-size:60px!important;
+}
+.icon-round{
+	margin:0 auto;
+	border:2px solid transparent;
+	border-radius: 50%;
+	padding: 32px 30px 26px 30px;
+	min-width:80px;
+}
+.icon-round.icon-md{
+	min-width:92px;
+}
+.icon-round.icon-lg{
+	min-width:122px;
+}
+.icon-round.icon-xl{
+	min-width:162px;
+}
+
+/* Icon colour styles */
+
+.icon-1{
+	color:#303030!important;
+	border-color:#303030!important;
+}
+
+/* Image frame */
+.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
+	background:#FFF;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	padding:4px;
+}
+.img-frame{
+	border-radius:3px;
+}
+.img-frame-md,.img-frame-lg{
+	border-radius:6px;
+}
+.img-frame-md,.img-frame-rd-md{
+	padding:8px;
+}
+.img-frame-lg,.img-frame-rd-lg{
+	padding:14px;
+}
+
+
+
+/* iFrame */
+
+iframe{
+	border:0;
+}
+/* Carousel */
+
+.carousel-control span{
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	display: inline-block;
+}
+.carousel-control{
+	color:#FFF!important;
+	text-shadow: none;
+}
+.carousel-indicators li{
+	margin: 0 4px;
+}
+.carousel-indicators .active{
+	margin: 0 4px -1px;
+}
+
+
+
+/* Mobile adjustments */
+/*@media (max-width: 1280px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}*/
+
+@media (max-width: width: 640px){
+	#slidy {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+    .page-container{
+        overflow-x: hidden;
+    }
+    h1,h2,h3,h4,h5,h6,p{
+        padding-left:10px!important; 
+        padding-right:10px!important; 
+    }
+    #hero-bloc h1{
+        font-size:40px;
+    }
+    #hero-bloc h2{
+        font-size:34px;
+    }
+    #hero-bloc h3{
+        font-size:25px;
+    }
+    .bloc{
+        text-align: center;
+        padding-left: 0; 
+        padding-right: 0;
+        -webkit-background-size: auto 200%;
+        -moz-background-size: auto 200%;
+        -o-background-size: auto 200%;
+        background-size: auto 200%;
+    }
+    .b-parallax{
+        background-attachment:scroll;
+    }
+    .navbar .nav{
+        padding-top: 0;
+        border-top:1px solid rgba(0,0,0,.2);
+        float:none!important;
+    }
+    .navbar.row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .site-navigation{
+	   position:inherit;
+	   transform:none;
+	   -webkit-transform:none;
+	   -ms-transform:none;
+    }  
+    .nav > li{
+        margin-top: 0;
+        border-bottom:1px solid rgba(0,0,0,.1);
+        background:rgba(0,0,0,.05);
+        text-align: left;
+        width:100%;
+    }
+    .nav > li:hover{
+        background:rgba(0,0,0,.08);
+    }
+    #hero-bloc .navbar .nav{
+        background:rgba(0,0,0,.8);
+    }
+    /*#hero-bloc .navbar .nav a{
+        color:rgba(255,255,255,.6);
+    }*/
+    .hero-nav{
+	   left:-1px;
+	   right:-1px;
+    }
+    .navbar-collapse{
+        padding:0;
+        overflow-x: hidden;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar-brand img{
+        max-height: 40px;
+        width:auto;
+        margin: -10px 5px 0 -20px;    
+    }
+    .nav-invert .navbar-header{
+        float: none;
+        width:100%;
+    }
+    .nav-invert .navbar-toggle{
+        float:left; 
+    }
+    .btn.pull-left, .btn.pull-right{
+       float:none!important; 
+    }
+    .bloc-group .bloc{
+         display:block;
+         width:100%;
+     }
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+	   padding-left: 10px;
+	   padding-right: 10px;
+    }
+    .bloc-xl,.bloc-lg{
+        padding: 40px 0;
+    }
+    .bloc-sm,.bloc-md{
+        padding-left: 0; 
+        padding-right: 0;
+    }
+    .a-block{
+        text-align: center;
+    }
+    .btn-dwn{
+       display:none; 
+    }
+    .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #bloc-11 {
+    	display: none;
+    }
+    #sarmiento .col-sm-6 {
+    	margin-top: -2em;
+    }
+}
+
+
+
+
+/* WEB FRAME CSS */
+
+#menu_tabs > .nav-tabs li > a {
+	font-size: 0.8em;
+	padding: 5px 5px;
+}
+
+
+.hero-nav a, nav a {
+	color: white;
+	font-size: 0.75em;
+	text-align: center;
+}
+.input-group[class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+
+/* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2098d1;
+  height: 6px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+#promo img{
+	border: 1px solid gray;
+}
+
+
+
+
