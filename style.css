@@ -660,7 +660,7 @@ iframe{
 		display: none;
 	}
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
     .page-container{
         overflow-x: hidden;
     }
@@ -717,9 +717,9 @@ iframe{
     #hero-bloc .navbar .nav{
         background:rgba(0,0,0,.8);
     }
-    #hero-bloc .navbar .nav a{
+    /*#hero-bloc .navbar .nav a{
         color:rgba(255,255,255,.6);
-    }
+    }*/
     .hero-nav{
 	   left:-1px;
 	   right:-1px;
@@ -865,6 +865,27 @@ iframe{
   left: 0;
   right: 0;
 }
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 
 
 #promo img{
